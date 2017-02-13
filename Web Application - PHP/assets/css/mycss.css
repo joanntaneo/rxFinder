@@ -1,0 +1,122 @@
+
+
+.box
+  {
+    border-color: #cc0000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 0px 30px 0px;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border-bottom-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+  }
+  
+  .boxHeader
+  {
+    border-color: #cc0000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 0px 10px 0px;
+    float: left;
+    width: 100%;
+    font-size: 14px;    
+    background-color: #cc0000;
+    border-bottom-radius: 30px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius:  2px;
+    border-top-right-radius: 2px;
+    padding: 10px;
+    color:#ffffff;
+  }
+  
+  .vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar-default{
+    background-color:#cc0000;
+    color: white;
+}
+
+.table-hover thead{
+    background-color:#cc0000;
+    color: white;
+}
+
+
+.navbar-default .navbar-brand{
+    background-color:#cc0000;
+    color: white;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0 0px 0 #ffffff;
+}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-rx{
+    background-color:  #cc0000;
+    border-color:  #ffffff;
+    color: #ffffff;
+}
+
+
+.btn-rx:hover{   
+    background-color:  #ffffff;    
+    border-color: #cc0033;
+    color: #cc0000;
+}
+
+.btn-rx:active {
+   background-color:  #cc0000;
+    border-color:  #ffffff;
+    color: #ffffff;
+}
+
+.padding-rx {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+}
+
+/* unvisited link */
+.a-rx:link {
+    color: #cc0000;
+}
+.a-rx:visited {
+    color: #cc0000;
+}
+.a-rx:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+.a-rx:active {
+    color: #0000FF;
+}
+
+.error{
+    color: #cc0000;
+}
